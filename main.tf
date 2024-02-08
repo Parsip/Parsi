@@ -5,7 +5,7 @@ provider "aws" {
 
 # EC2 Instance
 resource "aws_instance" "example" {
-  ami           = "ami-0c55b159cbfafe1f0"
+  ami           = "ami-0e731c8a588258d0d"
   instance_type = "t2.micro"
   availability_zone = "us-east-1b"
   tags = {
