@@ -17,12 +17,11 @@ resource "aws_instance" "example" {
 
 # RDS Instance
 resource "aws_db_instance" "example" {
-  identifier            = "example-db"
+  identifier            = "myfirstrdsinstance"
   allocated_storage     = 2
   engine                = "mysql"
   engine_version        = "5.7"
   instance_class        = "db.t2.micro"
-  name                  = "firstRDSdb"
   username              = "admin"
   password              = "admin123"
   parameter_group_name  = "default.mysql5.7"
