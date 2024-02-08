@@ -1,6 +1,8 @@
 # Define provider (AWS)
 provider "aws" {
   region = "us-east-1"
+access_key = "AKIAY4OKOQW2XH66IOPN"
+  secret_key = "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"
 }
 
 # EC2 Instance
